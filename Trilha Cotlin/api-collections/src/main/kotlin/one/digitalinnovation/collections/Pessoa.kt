@@ -7,11 +7,11 @@ class Pessoa {
 
     constructor()
 
+    fun pessoaInfo() = "$nome e $cpf"
+
 }
 fun main() {
     val nilton = Pessoa()
 
-    println(nilton)
-    println(nilton.nome)
-    println(nilton.cpf)
+    println(nilton.pessoaInfo())
 }

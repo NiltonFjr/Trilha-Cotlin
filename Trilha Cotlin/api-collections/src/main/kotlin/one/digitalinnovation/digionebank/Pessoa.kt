@@ -1,4 +1,4 @@
-package one.digitalinnovation.collections
+package one.digitalinnovation.digionebank
 
 class Pessoa {
     var nome: String = "Nilton"
